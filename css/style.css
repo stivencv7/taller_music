@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 50px;
+}
+
+body header {
+  background-image: url("../images/angel-jimenez.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  float: inline-start;
+  text-align: center;
+  color: white;
+  padding: 300px 0 0 0;
+  font-size: 200px;
+}
+.flotante {
+  float: right;
+  margin: -100px 200px 200px 50px;
+  height: 100vh;
+}
+
+.flotante1 {
+  float: left;
+  margin: -100px 100px 28px 238px;
+  height: 100vh;
+}
+.pared {
+  clear: both;
+}
+img {
+  height: 30vh;
+}
+
+.margen {
+  margin: 230px 550px 200px 300px;
+}
+
+.margen h2{
+  font-size: 394%;
+}
+
+.margen1 {
+  margin: 200px 200px 200px 300px;
+}
+.margen1 h2{
+  font-size: 500%;
+}
+
+.the2{
+  background-color: rgb(255, 76, 96);
+  border-radius: 60px;
+  margin:  20px 400px 0 700px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  height: 60px;
+  padding: 27px 30px 0 0;
+ width: 224px;
+  text-align: center;
+}
+.margen2 {
+  background-image: url("../images/john-raptis.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  float: left;
+}
+
+.margen4 {
+  margin: 0 0 0 300px;
+}
+
+.go {
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(255, 76, 96);
+  width: 230px;
+  height: 70px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.m {
+  padding: 8% 0 0 0 ;
+  color: rgb(255, 76, 96);
+}
+.a {
+  font-size: 17px;
+  margin: 220px 80px 0 1200px;
+}
+.h3 {
+  font-size: 58px;
+}
+
+
+footer{
+  background-color: rgb(255, 76, 96);
+  height:800px;
+  color:white;
+  height: 1400px;
+}
+
+.fila1{
+  float: left;
+  padding: 5% 0 0 20%;
+
+}
+
+
+.fila2{
+  float: left;
+  padding: 5% 0 0 10%;
+}
+
+.fila3{
+  float: left;
+  padding: 5% 0 0 10%;
+}
+
+.fila4{
+  float: left;
+  padding: 5% 0 0 10%;
+}
+.raya{
+  padding: 0 0 0 20%;
+  clear: both;
+}
+
+
+.copy2{
+ margin: -22px 0 0 1230px;
+}
+
+.copy1{
+  width: 22%;
+  padding: 1% 0 0  20%;
+}
+
+.copy{
+  width: 80%;
+}
+
+
+
+@media (max-width: 750px){
+  body{
+    background-color: blue;
+   }
+
+  h1 {  
+    font-size: 77px;
+  }
+  
+  .flotante {
+    float: right;
+    margin: -100px 200px 200px 200px;
+    height: 60vh;
+  }
+
+  .margen h2{
+    font-size: 200%;
+  }
+}
